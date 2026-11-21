@@ -1,0 +1,32 @@
+{
+  "manifest_version": "1.0",
+  "org": "jtgeibel",
+  "repo": "rust-civet",
+  "versions": [
+    {
+      "commit": "68ca95e5a5c9f4c9cca8be9ae36edf27839b0db0",
+      "parsed_at": "2026-11-21T23:26:07.505489+00:00",
+      "tag": "v0.12.0-alpha.0",
+      "filetree": "filetree/68ca95e5a5c9f4c9cca8be9ae36edf27839b0db0.nq.gz",
+      "blobs": [
+        "blob/cb3817114093b0ee6f1f6b533b485d732ad910e8.nq.gz",
+        "blob/c8556d00d20bb856b1f017c6480e0d7eebdac333.nq.gz",
+        "blob/d6c4f0149487a4800fd7c394ae4287b2ff0d586a.nq.gz",
+        "blob/006fecc3e8aa608413684b3e3771df6dc5796c95.nq.gz",
+        "blob/2f4a06b8f3e55c2adf2a085b11b8ad9c2730a5fb.nq.gz",
+        "blob/9fed966372eb587ae93f0dea6dd4b5dd3cbb022e.nq.gz",
+        "blob/0827869afc4ff88a3aa9007a1d750f31db4ce0cd.nq.gz",
+        "blob/1f7cf282765ffcb2099dbd7971251d492d5d60c2.nq.gz",
+        "blob/4e65fdc66d2c02ff849a4e4183117d6ba6ae8ae4.nq.gz",
+        "blob/a9d37c560c6ab8d4afbf47eda643e8c42e857716.nq.gz",
+        "blob/cf767cb7bc062e5d2b2ea0f9e3864d3d8055c5cf.nq.gz",
+        "blob/a93251b65da98b83862bc07ad0c89138639b58a5.nq.gz",
+        "blob/b54f24e4afc3383d30dcfb3199294e3dfcb04981.nq.gz",
+        "blob/6b6d88b61f1c2f1e74e0d3e96d0f1ca69493b15a.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz"
+}
