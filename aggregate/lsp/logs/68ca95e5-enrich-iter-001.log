@@ -1,0 +1,19 @@
+[2026-11-21T23:31:27Z] === ENRICH ITERATION 1 START | repo=jtgeibel/rust-civet sha=68ca95e5 ===
+[2026-11-21T23:31:27Z] [iter=1] PHASE START: enrich repo=jtgeibel/rust-civet sha=68ca95e5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/68ca95e5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/68ca95e5a5c9f4c9cca8be9ae36edf27839b0db0.nq.gz
+[2026-11-21T23:31:35Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-21T23:31:36Z] [iter=1] AST store loaded triples=45267 load_secs=0 mem_mb=144 MB
+[2026-11-21T23:31:36Z] [iter=1] Step 2: Finding LSP targets mem_mb=144 MB
+[2026-11-21T23:31:36Z] [iter=1] LSP targets found call_sites=407 imports=19 extends=0 implements=7 secs=0
+[2026-11-21T23:31:36Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=144 MB
+[2026-11-21T23:31:36Z] [iter=1] Position index built positions=2872 nodes_with_types=3585 secs=0 mem_mb=144 MB
+[2026-11-21T23:31:36Z] [iter=1] Step 3: Starting LSP resolution mem_mb=144 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T23:31:36Z] [iter=1] Resolving target type target_type=call_site count=407
+[2026-11-21T23:31:55Z] [iter=1] Target type resolved target_type=call_site resolved=371 errors=0 secs=20 mem_mb=144 MB
+[2026-11-21T23:31:55Z] [iter=1] Resolving target type target_type=import_statement count=19
+[2026-11-21T23:32:00Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=0.5 files_done=1 resolved=6 errors=0 current=examples/simple.rs
+[2026-11-21T23:32:02Z] [iter=1] Target type resolved target_type=import_statement resolved=19 errors=0 secs=7 mem_mb=144 MB
+[2026-11-21T23:32:02Z] [iter=1] Resolving target type target_type=implements_clause count=7
+[2026-11-21T23:32:09Z] [iter=1] Target type resolved target_type=implements_clause resolved=7 errors=0 secs=7 mem_mb=144 MB
+[2026-11-21T23:32:19Z] [iter=1] Step 5: Writing final enrichment file triples=5395
+[2026-11-21T23:32:19Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/68ca95e5a5c9f4c9cca8be9ae36edf27839b0db0.nq.gz size_kb=90
+[2026-11-21T23:32:19Z] [iter=1] PHASE END: enrich elapsed_s=52 elapsed_min=0.9 total_triples=5395

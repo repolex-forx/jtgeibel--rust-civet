@@ -26,6 +26,56 @@
       ],
       "ast": [
         "aggregate/ast/68ca95e5a5c9f4c9cca8be9ae36edf27839b0db0/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/68ca95e5a5c9f4c9cca8be9ae36edf27839b0db0.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "conduit",
+          "ecosystem": "CARGO",
+          "version": "0.9.0-alpha.0",
+          "githubOrg": "conduit-rust",
+          "githubRepo": "conduit",
+          "githubCommit": "b6f0da8da5f258fdfa93f1f03d454a7a902649ea",
+          "githubTag": "conduit-0.9.0-alpha.0",
+          "githubUrl": "https://github.com/conduit-rust/conduit",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "semver",
+          "ecosystem": "CARGO",
+          "version": "0.9",
+          "githubOrg": "dtolnay",
+          "githubRepo": "semver",
+          "githubUrl": "https://github.com/dtolnay/semver",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "civet-sys",
+          "ecosystem": "CARGO",
+          "version": "0.3.0",
+          "githubOrg": "jtgeibel",
+          "githubRepo": "rust-civet",
+          "githubUrl": "https://github.com/jtgeibel/rust-civet",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "route-recognizer",
+          "ecosystem": "CARGO",
+          "version": "0.1.0",
+          "githubOrg": "rustasync",
+          "githubRepo": "route-recognizer",
+          "githubUrl": "https://github.com/rustasync/route-recognizer",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
